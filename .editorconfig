@@ -1,0 +1,27 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 180
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.scss]
+indent_style = tab
+
+[{*.cjs,*.js}]
+indent_style = tab
+
+[{*.har,*.jsb2,*.jsb3,*.json,*.stub,.babelrc,.eslintrc,.stylelintrc,bowerrc,composer.lock,jest.config}]
+indent_size = 2
+
+[{*.htm,*.html,*.ng,*.sht,*.shtm,*.shtml}]
+indent_style = tab
+max_line_length = 200
+
+[{*.yaml,*.yml}]
+indent_size = 2

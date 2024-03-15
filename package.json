@@ -1,0 +1,19 @@
+{
+  "name": "mangoding",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "repository": "https://github.com/MangodingID/mangoding.git",
+  "author": "Mangoding ID",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-html-beautify": "^1.0.1"
+  }
+}
